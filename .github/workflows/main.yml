@@ -32,9 +32,3 @@ jobs:
 
       - name: Build
         run: dotnet run
-	
-      - name: Build
-        run: dotnet publish
-	
-      - name: Build
-        run: dotnet SimpleWebAppMVC.dll
