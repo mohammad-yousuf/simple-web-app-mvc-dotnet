@@ -33,4 +33,4 @@ jobs:
 
             
       - name: Build
-        run: dotnet run --project /actions-runner/_work/
+        run: dotnet run --project /actions-runner/_work/simple-web-app-mvc-dotnet/simple-web-app-mvc-dotnet
