@@ -29,4 +29,13 @@ jobs:
 
       - name: Build
         run: dotnet build --configuration Release --no-restore
+      - name: Restart the app
+        run: |
+          cd _work
+		      cd SimpleWebAppMVC
+		      dotnet run
+		      dotnet publish
+		      cd bin/Debug/netcoreapp3.1
+          dotnet SimpleWebAppMVC.dll
+
 
