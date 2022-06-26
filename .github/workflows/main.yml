@@ -30,9 +30,7 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
         
-      - name: Display the path
-        run: cd ~/actions-runner/_work/simple-web-app-mvc-dotnet/simple-web-app-mvc-dotnet/
-        shell: bash
+
             
       - name: Build
         run: dotnet run --project /actions-runner/_work/
