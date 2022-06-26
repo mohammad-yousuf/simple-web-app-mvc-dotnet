@@ -29,10 +29,10 @@ jobs:
 
       - name: Build
         run: dotnet build --configuration Release --no-restore
-	
+
       - name: Build
         run: dotnet run
-
+	
       - name: Build
         run: dotnet publish
 	
