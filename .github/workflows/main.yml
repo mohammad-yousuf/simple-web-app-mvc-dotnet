@@ -35,4 +35,4 @@ jobs:
         shell: bash
             
       - name: Build
-        run: dotnet run --project /actions-runner/_work/simple-web-app-mvc-dotnet/simple-web-app-mvc-dotnet/
+        run: dotnet run --project /actions-runner/_work/
